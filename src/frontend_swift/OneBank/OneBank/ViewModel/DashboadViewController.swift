@@ -17,6 +17,7 @@ class DashboadViewController: UIViewController {
     @IBOutlet weak var cardCollectionView: UICollectionView!
     @IBOutlet weak var servicesCollectionView: UICollectionView!
     @IBOutlet weak var transactionsTableView: UITableView!
+    private var currentBank:String!
     private var services:[String] = []
     
     override func viewDidLoad() {
@@ -62,6 +63,14 @@ extension DashboadViewController: UICollectionViewDelegate,UICollectionViewDataS
             return 4
         }
         
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goAccount"{
+            let dest = segue.destination as! AccountViewController
+            dest.currentAccount = currentBank
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -163,10 +172,20 @@ extension DashboadViewController: UICollectionViewDelegate,UICollectionViewDataS
             performSegue(withIdentifier: "goToAccount", sender: self)
         }else{
             switch indexPath.row {
-            case 0:
-                performSegue(withIdentifier: "goToBank", sender: <#T##Any?#>)
+            case 1:
+                currentBank = "CBA"
+                performSegue(withIdentifier: "goAccount", sender: self)
+            case 2:
+                currentBank = "ANZ"
+                performSegue(withIdentifier: "goAccount", sender: self)
+            case 3:
+                currentBank = "NAB"
+                performSegue(withIdentifier: "goAccount", sender: self)
+            case 4:
+                currentBank = "WSP"
+                performSegue(withIdentifier: "goAccount", sender: self)
             default:
-                <#code#>
+                performSegue(withIdentifier: "goAccount", sender: self)
             }
         }
     }

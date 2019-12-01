@@ -38,6 +38,12 @@ class AccountViewController: UIViewController {
         case "NAB":
             self.accountName.text = "National Bank Of Austrailia"
             self.bankView.backgroundColor = UIColor(red: 190, green: 13, blue: 0)
+        case "WSP":
+            self.accountName.text = "WestPac"
+            self.bankView.backgroundColor = UIColor(red: 10, green: 20, blue: 20)
+        case "ANZ":
+            self.accountName.text = "Austrlia New Zealand Bank"
+            self.bankView.backgroundColor = UIColor(red:0.58, green:0.80, blue:1.00, alpha:1.0)
         default:
             self.bankView.backgroundColor = UIColor.white
         }

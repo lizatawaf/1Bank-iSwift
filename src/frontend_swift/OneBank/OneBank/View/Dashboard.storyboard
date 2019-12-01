@@ -545,7 +545,7 @@
                         <segue destination="kSZ-hb-PfT" kind="showDetail" identifier="openBank" id="iLO-3k-ajK"/>
                         <segue destination="XjX-Sz-fd5" kind="showDetail" identifier="transferMoney" id="Mo1-mq-epk"/>
                         <segue destination="VeZ-mu-D7I" kind="showDetail" identifier="closeBank" id="zpU-6e-ltR"/>
-                        <segue destination="jbX-Yf-4xb" kind="show" id="NWT-8B-Rxe"/>
+                        <segue destination="jbX-Yf-4xb" kind="show" identifier="goAccount" id="NWT-8B-Rxe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKE-wM-vJa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
