@@ -1,8 +1,13 @@
 # 1Bank
 
-presentation:- https://www.canva.com/design/DADsrsum_hc/hPbIPO_Jv9ZpuENW04mh4A/view?utm_content=DADsrsum_hc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+presentation:- 
 
-Too many bank application to handle? Unclear view of their banking tendencies? 1Bank is an IOS application that hand Control your income and expenses, get smart analysis, all through our seamless user experience.
+https://www.canva.com/design/DADsrsum_hc/hPbIPO_Jv9ZpuENW04mh4A/view?utm_content=DADsrsum_hc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
+Too many bank application to handle? 
+Unclear view of their banking tendencies? 
+
+1Bank is an IOS application that hand Control your income and expenses, get smart analysis, all through our seamless user experience.
 
 This is possible by the new API that the australian governmnet going to release called OPEN BANKING
 
