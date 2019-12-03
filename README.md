@@ -12,7 +12,7 @@ Open banking centers on the idea that you deserve to have complete access to the
 More info:
 https://accntu.re/33BW3qa 
 
---Benefits to the User
+#Benefits to the User
 1. All your accounts in 1 platform
 
 Clear and concise views to ease your banking experience
@@ -26,7 +26,7 @@ View various account types across all banks to suit your needs
 Open and close all of your accounts with the click of a button
 
 
---Benefits to Banks
+#Benefits to Banks
 1. A clearer picture of your customer 
 
 Limitless potential with a customer's aggregated data across multiple banks
